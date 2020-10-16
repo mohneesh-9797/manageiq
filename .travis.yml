@@ -1,6 +1,8 @@
 ---
 dist: xenial
 language: ruby
+arch: amd64
+arch: arm64
 rvm:
 - 2.5.8
 - 2.6.6
