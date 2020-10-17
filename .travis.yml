@@ -27,6 +27,7 @@ addons:
 before_install:
 - source ${TRAVIS_BUILD_DIR}/tools/ci/before_install.sh
 before_script:
+- sudo ln -s /tmp/.s.PGSQL.5432 /var/run/postgresql/.s.PGSQL.5432
 - bundle exec rake test:$TEST_SUITE:setup
 script:
 - bundle exec rake test:$TEST_SUITE
