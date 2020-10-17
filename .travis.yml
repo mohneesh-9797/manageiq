@@ -1,6 +1,5 @@
 ---
 services:
-    - docker
     - postgresql
 dist: focal
 sudo: required
