@@ -2,7 +2,7 @@
 dist: focal
 sudo: required
 group: edge
-virt: v
+virt: vm
 language: ruby
 arch: 
 - amd64 
