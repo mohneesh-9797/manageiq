@@ -1,9 +1,12 @@
 ---
-dist: xenial
+dist: focal
+sudo: required
+group: edge
+virt: v
 language: ruby
 arch: 
 - amd64 
-- arm64
+- arm64-graviton2
 rvm:
 - 2.5.8
 - 2.6.6
